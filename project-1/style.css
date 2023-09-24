@@ -1,0 +1,13 @@
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.players img{
+    width: 20%;
+    /* height: 50%; */
+}
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
