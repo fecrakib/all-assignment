@@ -11,3 +11,33 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.container{
+    /* display: flex;
+    align-items: center;
+   width: 80%; */
+}
+.top-title{
+    margin-left: 8%;
+}
+.section-title h3{
+  color: violet;
+  margin-left: 5%;
+}
+.player{
+    margin-top: 20px;
+}
+.bog-title{
+    margin-left: 5%;
+}
+.top-bog{
+  display: flex;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+.top-bog-bog-img{
+    display: flex;
+   
+}
+.top-bog  img{
+    width: 50%;
+}

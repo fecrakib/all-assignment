@@ -1,0 +1,12 @@
+.menu-area ul{
+margin: 0;
+padding:  0px;
+display: flex;
+justify-content: space-around;
+}
+.menu-area ul li{
+    list-style: none;
+    }
+    .menu-area ul li a{
+        text-decoration: none;
+    }
