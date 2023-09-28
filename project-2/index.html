@@ -9,26 +9,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body  class="container snap-center">
-    <section class="container w-full">
-        <!-- <nav class="menu flex justify-between">
-            <div class="logo">
-                <p>Influencer products</p>
-            </div>
-            <div class="item list-none flex  ">
-                <li><a href="">Home</a></li>
-                <li><a href="">Product</a></li>
-                <li><a href="">Sign up</a></li>
-                <li><a href="">Log in</a></li>
-                <li><span class="material-symbols-outlined">
-                    search  
-                    </span></li>
-                     
-                 <li><span class="material-symbols-outlined">
-                    shopping_cart
-                    </span></li>   
-            </div>
-        </nav> -->
+<body  class="container content-center ">
+    <section class="container w-full menu">
+  
         <nav class="bg-blue-500 p-4">
             <div class="container mx-auto flex justify-between items-center">
                 <!-- Logo -->
@@ -73,7 +56,7 @@
         </script>
     </section>
     <section class="container-banner ">
-        <div class="banner-descrioption  pl-16">
+        <div class="banner-descrioption hidden  pl-16">
             <p class="banner-title"> start your journery <br> as influencer</p>
             <p class="banner-info">Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
             <button class="bg-sky-500 flex justify-center align-center py-1 rounded-md hover:bg-sky-700 ...">
@@ -83,8 +66,23 @@
               </button>
         </div>
         
-        <div class="banner">
+        <div class="banner hidden">
             <img class="px-10 py-20" src="./images/camera.png" alt="">
+        </div>
+        <!-- for mobile device -->
+        <div class="md:hidden lg:hidden">
+            <div class="banner">
+                <img class="px-10 py-20" src="./images/camera.png" alt="">
+            </div>
+            <div class="banner-descrioption  pl-16">
+                <p class="banner-title"> start your journery <br> as influencer</p>
+                <p class="banner-info">Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
+                <button class="bg-sky-500 flex justify-center align-center py-1 rounded-md hover:bg-sky-700 ...">
+                    Save changes <span class="material-symbols-outlined ml-2">
+                        east
+                        </span>
+                  </button>
+            </div>
         </div>
     </section>
  <section class="container grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 px-10 py-20 sm:col-span-3 ">
@@ -110,6 +108,76 @@
         <img class="w-21 h-6 px-10 mb-5" src="./logos/Walmart.svg" alt="">
     </div>
 
+ </section>
+ <!-- product collector -->
+ <section class="container">
+    <div class="title text-center mb-10"><p>Popular Collection</p></div>
+    <div class="products pl-16 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 ">
+        <div class="product w-80 backdrop-grayscale-0 bg-white/40 ">
+            <img class="w-28 h-25 mb-4 px-4 py-2 rounded-md" src="./images/action.png" alt="">
+            <h3 class="font-mono px-4">Flex Tripod</h3>
+            <p class="font-sans px-4">$50.48</p>
+            <p class="text-sm px-4 font-semibold">Wordwide shifting <br> available <br>
+                Buyers protection possible!</p>
+
+        </div>
+        <div class="product w-80 backdrop-grayscale-0 bg-white/40 ">
+            <img class="w-28 h-25 mb-4 px-4 py-2 rounded-md" src="./images/action.png" alt="">
+            <h3 class="font-mono px-4">Flex Tripod</h3>
+            <p class="font-sans px-4">$50.48</p>
+            <p class="text-sm px-4 font-semibold">Wordwide shifting <br> available <br>
+                Buyers protection possible!</p>
+
+        </div>
+        <div class="product w-80 backdrop-grayscale-0 bg-white/40 ">
+            <img class="w-28 h-25 mb-4 px-4 py-2 rounded-md" src="./images/action.png" alt="">
+            <h3 class="font-mono px-4">Flex Tripod</h3>
+            <p class="font-sans px-4">$50.48</p>
+            <p class="text-sm px-4 font-semibold">Wordwide shifting <br> available <br>
+                Buyers protection possible!</p>
+
+        </div>
+        <div class="product w-80 backdrop-grayscale-0 bg-white/40 ">
+            <img class="w-28 h-25 mb-4 px-4 py-2 rounded-md" src="./images/action.png" alt="">
+            <h3 class="font-mono px-4">Flex Tripod</h3>
+            <p class="font-sans px-4">$50.48</p>
+            <p class="text-sm px-4 font-semibold">Wordwide shifting <br> available <br>
+                Buyers protection possible!</p>
+
+        </div>
+        <div class="product w-80 backdrop-grayscale-0 bg-white/40 ">
+            <img class="w-28 h-25 mb-4 px-4 py-2 rounded-md" src="./images/action.png" alt="">
+            <h3 class="font-mono px-4">Flex Tripod</h3>
+            <p class="font-sans px-4">$50.48</p>
+            <p class="text-sm px-4 font-semibold">Wordwide shifting <br> available <br>
+                Buyers protection possible!</p>
+
+        </div>
+        <div class="product w-80 backdrop-grayscale-0 bg-white/40 ">
+            <img class="w-28 h-25 mb-4 px-4 py-2 rounded-md" src="./images/action.png" alt="">
+            <h3 class="font-mono px-4">Flex Tripod</h3>
+            <p class="font-sans px-4">$50.48</p>
+            <p class="text-sm px-4 font-semibold">Wordwide shifting <br> available <br>
+                Buyers protection possible!</p>
+
+        </div>
+        <div class="product w-80 backdrop-grayscale-0 bg-white/40 ">
+            <img class="w-28 h-25 mb-4 px-4 py-2 rounded-md" src="./images/action.png" alt="">
+            <h3 class="font-mono px-4">Flex Tripod</h3>
+            <p class="font-sans px-4">$50.48</p>
+            <p class="text-sm px-4 font-semibold">Wordwide shifting <br> available <br>
+                Buyers protection possible!</p>
+
+        </div>
+        <div class="product w-80 backdrop-grayscale-0 bg-white/40 ">
+            <img class="w-28 h-25 mb-4 px-4 py-2 rounded-md" src="./images/action.png" alt="">
+            <h3 class="font-mono px-4">Flex Tripod</h3>
+            <p class="font-sans px-4">$50.48</p>
+            <p class="text-sm px-4 font-semibold">Wordwide shifting <br> available <br>
+                Buyers protection possible!</p>
+
+        </div>
+    </div>
  </section>
 
 </body>

@@ -5,7 +5,9 @@
     display: flex;
     justify-content: space-between;
 } */
-
+.menu{
+    width: 100%;
+}
 .container-banner{
     display: flex;
     align-items: center;
@@ -31,4 +33,23 @@ width: 580px;
 }
 .banner-descrioption {
     width: 580px;
+}
+.product{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(143, 66, 66, 0.15);
+ margin-left: 10px;
+ margin-top: 10px;
+ margin-right: 10px;
+
+}
+.product img{
+    width: 300px;
+height: 256px;
+margin: auto;
+/* margin-left: 10px;
+margin-top: 20px; */
+}
+.products{
+    margin: 10px 10px;
 }
